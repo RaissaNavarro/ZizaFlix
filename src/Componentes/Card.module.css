@@ -1,0 +1,43 @@
+.conteiner {
+    position: relative;
+    width: 280px;
+    margin: 0.5rem;
+    overflow: hidden;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+    margin-left: 30px;
+}
+ 
+.conteiner img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+}
+ 
+.conteiner:hover {
+    transform: scale(1.1);
+}
+ 
+h3 {
+    font-size: 20px;
+    color: white;
+    margin: 0.5rem 0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+ 
+p {
+    font-size: 0.875rem;
+    color: #e5e5e5;
+    padding: 0.5rem;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+ 
+.conteiner:hover p {
+    opacity: 1;
+}

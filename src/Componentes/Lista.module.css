@@ -1,0 +1,8 @@
+.conteiner {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    font-family: "Helvetica Neue", Roboto, Arial, sans-serif;
+    background-color: #141414;
+}
