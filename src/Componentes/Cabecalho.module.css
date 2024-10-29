@@ -1,0 +1,14 @@
+.conteiner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(41, 41, 55);
+    height: 150px;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    color: red;
+
+}
