@@ -1,10 +1,9 @@
-import { Home } from "./Paginas/Home"
+import { Inicial } from "./Paginas/Inicial"
 
 function App() {
+ 
   return (
-    <>
-    <Home/>
-   </>
+    <Inicial/>
   )
 }
 

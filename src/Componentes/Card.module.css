@@ -13,6 +13,7 @@
     height: auto;
     display: block;
     border-radius: 5px;
+    cursor: pointer;
 }
  
 .conteiner:hover {
@@ -21,7 +22,7 @@
  
 h3 {
     font-size: 20px;
-    color: white;
+    color: #e1181f;
     margin: 0.5rem 0;
     font-family:Arial, Helvetica, sans-serif;
 }
@@ -36,8 +37,12 @@ p {
     width: 100%;
     opacity: 0;
     transition: opacity 0.3s ease;
+    font-family: "Poppins";
 }
  
 .conteiner:hover p {
     opacity: 1;
 }
+
+
+ 

@@ -1,0 +1,24 @@
+.conteiner {
+    background-color: #e1181f;
+    padding: 1rem;
+  }
+   
+  .conteiner ul {
+    display: flex;
+    gap: 1.5rem;
+    list-style-type: none;
+    color: black;
+    font-family: "Poppins";
+    font-size: 22px;
+  }
+   
+  .conteiner a {
+    color: #e5e5e5;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+   
+  .conteiner a:hover {
+    color: #b81d24;
+  }
