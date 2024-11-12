@@ -44,5 +44,41 @@ p {
     opacity: 1;
 }
 
+/* Quando o card é expandido */
+.expanded {
+    transform: scale(2); /* Expande o card */
+    z-index: 10; /* Garante que o card expanda sobre os outros */
+  }
+  
+  /* Imagem do card expandido */
+  .expandedImage {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Overlay para desfocar o fundo */
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente */
+    z-index: 5;
+    backdrop-filter: blur(5px); /* Desfoca o fundo */
+  }
+  
+  /* Desfoca os outros cards quando um card é expandido */
+  .container .conteiner {
+    filter: blur(5px); /* Aplica o desfoque em todos os cards por padrão */
+    transition: filter 0.3s ease; /* Transição suave */
+  }
+  
+  /* Quando o card está expandido, ele não será desfocado */
+  .container .conteiner.expanded {
+    filter: none; /* Remove o desfoque do card selecionado */
+  }
+
+
 
  
